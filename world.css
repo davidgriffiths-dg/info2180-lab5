@@ -1,1 +1,62 @@
 /* Add your own styles */
+body{ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(98, 190, 190);
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    height: 200px;
+}
+
+main{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    padding-top: 30px;
+}
+
+#country{
+    display: block;
+    width: 700px;
+    height: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: rgb(0, 0, 0);
+    margin: 10px;
+}
+
+
+button{
+    color: rgb(0, 0, 0);
+    border: none;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+#result{
+    width: 950px
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid rgb(151, 161, 2);
+    padding: 8px;
+  }
+
+  tr:nth-child(even){background-color:rgb(41, 88, 49);}
